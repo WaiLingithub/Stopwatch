@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(32, 29, 29);
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopwatchContainer {
+  border: 5px solid rgb(8, 146, 66);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: rgb(86, 86, 125);
+}
+
+.stopwatch {
+  color: yellow;
+  font-size: 100px;
+  margin-bottom: 5px;
+}
+
+.miliseconds {
+  color: rgb(11, 7, 219);
+  font-size: 30px;
+  display: block;
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+}
+
+.buttonContainer {
+  min-width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
